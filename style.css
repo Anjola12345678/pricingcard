@@ -1,0 +1,121 @@
+html{
+    box-sizing: border-box;
+    font-family: 'karla';
+    font-size: 19px;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    padding: 20px;
+}
+h2,h4,p{
+    margin: 0;
+}
+#card{
+    width: 800px;
+    height: 450px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;  /*if you have any box breaking outside a box or a property then you can use this to cover it */
+    margin-left: 18%;
+    margin-top: 78px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+#top-section{
+    width: 100%;
+    height: 45%;
+    padding: 25px;
+}
+
+#bottom-section{
+    width: 100%;
+    height: 55%;
+    color: white;
+}
+
+#bottom-left-section{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #2ab2af;
+    padding: 20px;
+}
+
+#bottom-right-section{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #24d4cf;
+    padding: 20px;
+    
+}
+
+#top-section h2{
+    margin-bottom: 20px;
+    color: #2ab2af;
+}
+#top-section h4{
+    margin-bottom: 10px;
+    color: #c0df34;
+}
+#top-section p{
+    color: #717d93;
+}
+
+button{
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    }
+    button:hover{
+        cursor: pointer;
+      background-color:  #d0ff00a1;
+        transform: scale(0.99);
+    }
+
+#price{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#bottom-left-section h4{
+    margin-bottom: 20px;
+}
+
+#price-frequency, #price{
+    display: inline-block;
+}
+#price-frequency{
+    position: relative;
+    top: 2px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-left: -2px;
+}
+#bottom-left-section p{
+    font-size: 0.85rem;
+    margin-bottom: 43px;
+}
+#price-container{
+    margin-bottom: 10px;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    opacity: 0.7;
+    font-size: 0.8rem;
+    line-height: 25px;
+    margin-top: -0.5px;
+}
+
